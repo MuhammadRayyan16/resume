@@ -1,4 +1,5 @@
 body {
+  background-color: #cba707;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,197 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#img {
+  width: 150px;
+  height: 250px;
+  background-color: cba707;
+  object-fit: cover;
+  margin-left: 40px;
+
+}
+
+#img img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+#container {
+  margin-top: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#maindiv {
+  background-color: #ffffff;
+  height: 143vh;
+  width: 50vw;
+  margin-bottom: 40px;
+}
+
+#text {
+  margin-top: -180px;
+  margin-left: 22vw;
+  line-height: 5px;
+}
+
+#text h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#text h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#text h5 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+#yellowdiv {
+  border-radius: 5px;
+  margin-top: 60px;
+  background-color: #cba707;
+  height: 3px;
+  width: 24vw;
+  margin-bottom: 40px;
+}
+
+#jobs span {
+  line-height: 20px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#yellow2 {
+  margin-top: 23px;
+  height: 60px;
+  width: 4px;
+  border-radius: 5px;
+  background-color: #cba707;
+}
+
+#yelpra {
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: -62px;
+  margin-left: 10px;
+}
+
+#yellow3 span {
+  line-height: 20px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#skills {
+  line-height: 20px;
+}
+
+#ski1 {
+  line-height: 10px;
+
+}
+
+#ski2 {
+  line-height: 12px;
+  margin-top: -88px;
+  margin-left: 16vw;
+}
+
+#interests {
+  margin-top: 40px;
+}
+
+#int1 ul {
+  margin-left: -17px;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#int1 li {
+  padding-right: 30px;
+}
+
+li::marker {
+  color: #cba707;
+}
+
+#section1 {
+  margin-top: -97vh;
+  height: 101.9vh;
+  width: 20vw;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+
+#contact {
+  padding-top: 15px;
+  padding-left: 44px;
+}
+
+#contact p {
+  margin-left: 3px;
+  line-height: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#education {
+  margin-left: 44px;
+  line-height: 10px;
+}
+
+#education h5 {
+  margin-left: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+#education p {
+  margin-left: 3px;
+  font-size: 13px;
+  font-weight: 500px;
+  line-height: 10px;
+}
+
+
+#refernce {
+  margin-top: 35px;
+  margin-left: 47px;
+  line-height: 8px;
+}
+
+#refernce h6 {
+  margin-left: 15px;
+  line-height: 1px;
+  margin-top: -62px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#refernce p {
+  margin-left: 15px;
+  line-height: 6px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#yellow4 {
+  border-radius: 5px;
+  margin-top: 23px;
+  height: 70px;
+  width: 4px;
+  background-color: #cba707;
 }
